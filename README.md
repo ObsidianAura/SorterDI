@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+# 🪄 Hogwarts House Sorter
 
-## Project info
+Step right up to the Great Hall, put on the Sorting Hat, and discover your true Hogwarts house!
+This magical quiz blends personality traits, values, and intuition to sort you into Gryffindor, Hufflepuff, Ravenclaw, or Slytherin — with style worthy of the wizarding world.
 
-**URL**: https://lovable.dev/projects/43b1a11e-d8a5-4c79-9f79-04f6f2ef1a54
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+* **Authentic Hogwarts Aesthetic** – Inspired by the films, with rich gradients and magical effects.
+* **Dynamic Sorting Ceremony** – Multiple sorting methods (quiz, values-based, personality assessment).
+* **Borderline Results** – See if you’re close to multiple houses (e.g., Gryffindor–Ravenclaw).
+* **Trait Radar Chart** – Visualize your compatibility with each house.
+* **Personalized House Welcome** – Greetings from your Head of House.
+* **Detailed House Analysis** – Learn exactly why you belong where you do.
+* **Admin Panel** – Manage questions, users, analytics, and adjust house capacity.
+* **Responsive & Accessible** – Mobile-first design, screen reader support, and keyboard navigation.
+* **Engaging Animations** – House reveal sequences, smooth transitions, and magical UI touches.
+* **Shareable Results** – Post your house badge and results directly to social media.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/43b1a11e-d8a5-4c79-9f79-04f6f2ef1a54) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend**: React + TypeScript + Vite
+* **UI**: Tailwind CSS + shadcn/ui + Radix UI
+* **State Management**: React Query
+* **Form Handling**: React Hook Form + Zod
+* **Charts**: (optional) Chart.js or similar for trait visualization
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Folder Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+├── public/
+│   ├── hogwarts-preview.png        # Open Graph preview image
+│   ├── favicon.ico                 # Custom Hogwarts favicon
+│   └── other static assets
+├── src/
+│   ├── assets/                     # Images, icons, decorative assets
+│   ├── components/                 # UI components
+│   ├── pages/                      # Page-level components
+│   ├── hooks/                       # Custom React hooks
+│   ├── utils/                       # Helper functions
+│   ├── styles/                      # Tailwind configs, custom CSS
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── tailwind.config.js
+├── vite.config.ts
+└── README.md
+```
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🚀 Getting Started
+
+**Prerequisites**:
+
+* [Node.js](https://nodejs.org/) (v18 or later)
+* npm (comes with Node)
+
+**Installation**:
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
+cd hogwarts-house-sorter
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+**Development**:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Production Build**:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+npm run preview
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌐 Deployment
 
-## What technologies are used for this project?
+You can deploy this on **Vercel**, **Netlify**, or any static hosting provider.
+For Vercel:
 
-This project is built with:
+1. Push your project to GitHub.
+2. Connect your repository to Vercel.
+3. Set build command: `npm run build`
+4. Set output directory: `dist/`
+5. Deploy.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🧙‍♂️ Credits
 
-Simply open [Lovable](https://lovable.dev/projects/43b1a11e-d8a5-4c79-9f79-04f6f2ef1a54) and click on Share -> Publish.
+Inspired by J.K. Rowling’s Harry Potter series. This is a project made by a potter-head for educational and entertainment purposes only.
+All rights to the Harry Potter universe belong to Warner Bros. and J.K. Rowling.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
